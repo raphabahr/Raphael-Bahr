@@ -1,0 +1,16 @@
+section .animate {
+    opacity: 0;
+    transition: 1.3s;
+    filter: blur(5px);
+    transform: scale(.7);
+}
+
+section.show-animate .animate {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.section__title {
+    position: relative;
+}

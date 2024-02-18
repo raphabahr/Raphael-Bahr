@@ -1,0 +1,34 @@
+@media screen and (max-width: 350px) {
+    .map {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .map__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .map {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .map iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .map__container {
+        grid-column-start: 1;
+    }
+}

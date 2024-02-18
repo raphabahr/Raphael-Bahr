@@ -1,0 +1,209 @@
+.footer {
+    background-color: var(--container-color);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.footer__container {
+    padding: 1rem 0 0.5rem;
+    display: grid;
+}
+
+.footer__title,
+.footer__link {
+    color: var(--title-color);
+}
+
+.footer__title {
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 3rem;
+}
+
+.findme__title {
+    text-align: center;
+    margin-bottom: var(--mb-2);
+    font-family: var(--title-font);
+    font-size: 2rem;
+}
+
+.footer__link:hover {
+    color: black;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    margin-bottom: var(--mb-2);
+    margin-top: var(--mb-2);
+}
+
+.footer__title .findMe {
+    font-size: 1rem !important;
+}
+
+.footer__social {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.footer__social-icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.25rem;
+}
+
+.footer__social-link {
+    background-color: var(--title-color);
+    color: var(--container-color);
+    font-size: 1.125rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+}
+
+.footer__social-link:hover {
+    background-color: var(--title-color-dark);
+    color: var(--body-color);
+}
+
+.footer__copy {
+    display: block;
+    margin-top: 3.5rem;
+    color: var(--title-color);
+    text-align: center;
+    font-size: var(--smaller-font-size);
+}
+
+.copy__container {
+    display: grid;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100px;
+}
+
+.map__container {
+    display: grid;
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.map {
+    text-align: center;
+}
+
+.map__container h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .footer__social-link {
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer__container {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer__social-link {
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__social-icons {
+        column-gap: 0.5rem;
+        margin: 1rem;
+    }
+
+    .findme__title {
+        margin: 0;
+    }
+
+    .footer__copy {
+        margin: 1rem;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer__container h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer__list {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .footer__social {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer__container h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer__list {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .footer__social {
+        margin: 1rem;
+    }
+}
