@@ -14,7 +14,6 @@ Link do projeto - https://raphabahr.com/
 - React / HTML / CSS / JS  
  
 ## Links
-  - Deploy on netlify: https://endearing-arithmetic-cc8603.netlify.app/
   - Repository: https://github.com/raphabahr/Raphael-Bahr
     - In case of sensitive bugs like security vulnerabilities, please contact
       raphabahr@gmail.com directly instead of using issue tracker. We value your effort
