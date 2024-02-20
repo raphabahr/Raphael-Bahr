@@ -10,6 +10,7 @@
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
+    color: white;
 }
 
 .contact__info {
@@ -45,6 +46,11 @@
     display: block;
     margin-bottom: var(--mb-0-75);
     color: var(--title-color);
+}
+
+.contact__card-title {
+    color: #33bbcf;
+    font-weight: bold;
 }
 
 .contact__button {
@@ -111,7 +117,7 @@
 @media screen and (max-width: 992px) {
     .contact__container {
         column-gap: 3rem;
-    }    
+    }
 }
 
 @media screen and (max-width: 768px) {

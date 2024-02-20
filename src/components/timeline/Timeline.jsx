@@ -15,7 +15,7 @@ function Timeline() {
     let schoolIconStyles = { background: "var(--text-color)" };
 
     return (
-        <section className="vertical_section ">
+        <section className="vertical_section section" id="qualification">
             <h1 className="section__title">Qualification</h1>
             <VerticalTimeline>
                 {timelineElements.map((element) => {

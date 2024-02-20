@@ -25,11 +25,12 @@ h3 {
 }
 
 .vertical-timeline-element-title {
-    color: black !important;
+    color: #33bbcf;
+    font-weight: bold;
 }
 
 .vertical-timeline-element-subtitle {
-    color: black !important;
+    color: var(--title-color);
     font-size: var(--small-font-size) !important;
 }
 
@@ -56,5 +57,15 @@ h3 {
         float: none !important;
         color: rgb(44, 44, 44);
         margin-top: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .vertical-timeline {
+        margin: 0 40px !important;
+    }
+
+    .vertical-timeline-element-content {
+        width: 250px;
     }
 }

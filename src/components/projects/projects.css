@@ -1,5 +1,6 @@
 .project__container {
     width: 700px;
+
 }
 
 .project__card {
@@ -8,6 +9,7 @@
     padding: 1.5rem 2rem;
     border-radius: 1.5rem;
     margin-bottom: var(--mb-3);
+    cursor: pointer;
 }
 
 .project__img {
@@ -18,8 +20,9 @@
 
 .project__name {
     font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-25);
+    color: #33bbcf;
+    font-weight: bold;
 }
 
 .project__description {

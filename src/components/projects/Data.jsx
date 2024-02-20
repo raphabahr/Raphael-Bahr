@@ -9,6 +9,7 @@ export const Data = [
         title: "Blog",
         description:
             "My first front- end page, fully responsive.",
+        link: "https://serene-rugelach-b14c9d.netlify.app",
         
     },
     {
@@ -17,6 +18,7 @@ export const Data = [
         title: "Ecommerce page",
         description:
             "First attempt Eletronic ecommerce page, using only css, html and js",
+        link: "https://unique-marshmallow-7392f3.netlify.app/",
     },
     {
         id: 3,
@@ -24,5 +26,6 @@ export const Data = [
         title: "First Portfolio",
         description:
             "My First portfolio, using just css, html and js",
+        link: "https://endearing-arithmetic-cc8603.netlify.app/",
     },
 ]

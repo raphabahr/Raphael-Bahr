@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf598445.css",
+    "main.js": "/static/js/main.723ec32e.js",
+    "static/js/787.e563a770.chunk.js": "/static/js/787.e563a770.chunk.js",
+    "static/media/homePc.png": "/static/media/homePc.ee8a4d0634b2b4bad2c9.png",
+    "static/media/testimonial2.png": "/static/media/testimonial2.5498583122dca10879da.png",
+    "static/media/testimonial1.png": "/static/media/testimonial1.e6c1bbf81a49e2ed77f9.png",
+    "static/media/testimonial3.png": "/static/media/testimonial3.594f352788fa62803c2f.png",
+    "static/media/about.png": "/static/media/about.5b463f0148047c216670.png",
+    "static/media/uiux_updated.png": "/static/media/uiux_updated.49285d690fee23c8e2e0.png",
+    "static/media/Raphael.pdf": "/static/media/Raphael.bc02339e919bf910c5ce.pdf",
+    "static/media/aboutme.jpg": "/static/media/aboutme.8f33560307b21beb9c27.jpg",
+    "static/media/background.webp": "/static/media/background.157f90f56d976bdd6201.webp",
+    "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "index.html": "/index.html",
+    "main.cf598445.css.map": "/static/css/main.cf598445.css.map",
+    "main.723ec32e.js.map": "/static/js/main.723ec32e.js.map",
+    "787.e563a770.chunk.js.map": "/static/js/787.e563a770.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf598445.css",
+    "static/js/main.723ec32e.js"
+  ]
+}

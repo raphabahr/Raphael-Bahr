@@ -13,9 +13,10 @@
 
 .skills__title {
     font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-5);
+    color: #33bbcf;
+    font-weight: bold;
 }
 
 .skills__box {

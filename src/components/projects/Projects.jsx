@@ -15,7 +15,7 @@ import '../animation/Animation.css';
 
 const Projects = () => {
     return (
-        <section className="project container section animate">
+        <section className="project container section animate" id="my-projects">
             <h2 className="section__title">My projects</h2>
             <span className="section__subtitle">Projects</span>
 
@@ -41,13 +41,15 @@ const Projects = () => {
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
             >
-                {Data.map(({ id, image, title, description }) => {
+                {Data.map(({ id, image, title, description, link }) => {
                     return (
                         <SwiperSlide className="project__card" key={id}>
-                            <img src={image} alt="" className='project__img' />
+                            <a href={link} target="_blank" rel="noopener noreferrer" className="project__link">
+                                <img src={image} alt="" className='project__img' />
 
-                            <h3 className="project__name">{title}</h3>
-                            <p className="project__description">{description}</p>
+                                <h3 className="project__name">{title}</h3>
+                                <p className="project__description">{description}</p>
+                            </a>
                         </SwiperSlide>
                     );
                 })}
